@@ -15,7 +15,7 @@ $(document).ready(function() {
         if (result > 50) {
          $("#input").text("CONGRATULATIONS " + "Your score is: " + result);
         }else{
-            $("#input").text( "Your score is: " + result + "You will have to retake the exam");   
+            $("#input").text( "Your score is: " + result + " You will have to retake the exam");   
         }
     });
 });

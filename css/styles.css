@@ -1,6 +1,6 @@
 body{
     align-self: center;
-    background: url(/home/newton/Documents/quizBoard/images/background.jpg);
+    background: url(../images/background.jpg);
     background-size: contain;
     width: 800px;
     padding:100px;

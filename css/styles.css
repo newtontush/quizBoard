@@ -10,3 +10,19 @@ body{
     color:black;
     font-family: sans-serif;
 }
+.button{
+    color: aqua;
+    background: green;
+}
+input{
+background: khaki;
+}
+#box{
+    width: 800px;
+    padding:10px;
+    text-align: center;
+    margin:auto;
+    color:white;
+    font-family: sans-serif;
+    background: black;
+}

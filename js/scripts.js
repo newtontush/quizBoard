@@ -11,6 +11,7 @@ $(document).ready(function() {
         var val8 = parseInt($("[name=answer8]:checked").val());
         var val9 = parseInt($("[name=answer9]:checked").val());
         var val10 = parseInt($("[name=answer10]:checked").val());
-        $("#input").text("Your score is: " + (val1 + val2 + val3 + val4 + val5 + val6 + val7 + val8 + val9 + val10));
+        var result = parseInt(val1+ val2 + val3 + val4 + val5 + val6 + val7 + val8 + val9 + val10 );
+         $("#input").text("Your score is: " + result);
     });
 });

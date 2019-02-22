@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<htlm>
+<html>
     <head>
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
       <link href="css/styles.css" rel="stylesheet" type="text/css">
-      <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
       <script src="js/scripts.js"></script>
       <title>quizboard</title>
     </head>
     <body>
-        <div class="container">
-            <h1>QUIZBOARD</h1>
-            <h2>Choose the most appropriate answer!</h2>
-        </div>
-    </body>
-</htlm>
+        <h1>Welcome to today's quiz.</h1>
+        <p><strong>DO NOT</strong> leave a question unanswered!</p>
+        <form id="questions">
+            <ol>
+                <br><li> What does HTML stand for?</li><br>
+                <input type="radio" id="1a" name="answer1" value="10"/>Hyper Text Markup Language.<br>
+                <input type="radio" id="2a" name="answer1" value="0"/>Hot Mail.<br>
+                <input type="radio" id="3a" name="answer1" value="0"/>How to Make Lasagna.<br>
+                <br><button class="btn" type="submit">SUBMIT!</button><br>
+
+                <br><li>How many tags are in a regular element?</li><br>
+                </ol>                
+        </form>
+        <div id="input"></div>
+       
+        </body>
+</html>
